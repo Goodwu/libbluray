@@ -152,6 +152,7 @@
   <PropertyGroup Label="Configuration" Condition="'$(VisualStudioVersion)' == '15.0'">
     <PlatformToolset>v141</PlatformToolset>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <SpectreMitigation>false</SpectreMitigation>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Debug' Or '$(Configuration)'=='DebugRelease'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
